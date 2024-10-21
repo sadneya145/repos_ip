@@ -1,0 +1,68 @@
+/* src/App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.quiz-container,
+.result-container {
+  text-align: center;
+}
+
+.options {
+  list-style-type: none; /* Removes bullet points from the list */
+  padding: 0; /* Removes padding */
+  margin: 20px 0; /* Adds margin to the top and bottom */
+}
+
+.option {
+  background-color: #007bff;
+  color: white;
+  padding: 15px;
+  margin: 10px 0; /* Adds margin between options */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-align: left; /* Aligns text to the left */
+  padding-left: 20px; /* Adds padding to the left */
+}
+
+.option:hover {
+  background-color: #0056b3;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #218838;
+}
+
+.result-container h2 {
+  color: #333;
+}
